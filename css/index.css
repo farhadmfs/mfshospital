@@ -1,0 +1,319 @@
+
+
+
+/*-- --------------------cover section start--------------------- --> */
+
+.cover-section{
+	margin-top: 50px;
+}
+.cover-text{
+	margin-top: 150px;
+}
+.cover-icon{
+	margin-top: 200px;
+}
+.cover-icon a i{
+	color: #535250!important;
+}
+.cover-icon a i:hover{
+	color: #f76c6c!important;
+}
+
+
+/* ========================= cover section end ============= */
+
+/* =========================service section start ========= */
+
+
+.service-section{
+	margin-top: 150px;
+	width: 100%;
+	height: auto;
+}
+.serv-sec-icon a i{
+	color: #535250!important;
+}
+
+.serv-sec-icon {
+	margin-top: 150px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+.serv-sec-icon a i:hover {
+	color: #ff4a4a!important;
+}
+.dental{
+	background: #f1f1f1;
+	border-radius: 20px;
+	padding:30px 20px;
+}
+.h-dental{
+	margin-top: 10px;
+}
+.dental:hover{
+	box-shadow: 2px 2px 6px #ff7a7a;
+} 
+.neurology{
+	margin-top: 50px;
+	background: #f1f1f1;
+	border-radius: 20px;
+	padding:30px 20px;
+}
+.h-neurology{
+	margin-top: 10px;
+}
+.neurology:hover{
+	box-shadow: 2px 2px 6px #ff7a7a;
+}
+.cardiovascular{
+	margin-top: -45px;
+	background: #f1f1f1;
+	border-radius: 20px;
+	padding:30px 20px;
+}
+.h-cardiovascular{
+	margin-top: 10px;
+}
+.cardiovascular:hover{
+	box-shadow: 2px 2px 6px #ff7a7a;
+}
+.ophtalmologue{
+	margin-top: 15px;
+	background: #f1f1f1;
+	border-radius: 20px;
+	padding:30px 20px;
+}
+.h-ophtalmologue{
+	margin-top: 10px;
+}
+.ophtalmologue:hover{
+	box-shadow: 2px 2px 6px #ff7a7a;
+}
+.why-patients{
+	margin-top: -120px;
+	margin-left: 100px;
+}
+.h-why-patients{
+	color: #08407b;
+	margin-bottom: 10px;
+}
+.p-why-patients{
+	margin-top: 15px;
+}
+.learn-more{
+	padding: 5px 25px 5px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+}
+.learn-more:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;
+}
+/* ==========================service section end============ */
+
+/* ===================== Doctor section start ========= */
+
+.our-doctor{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+.h-sec-3{
+	color: #08407b;
+	font-weight: 600;
+}
+.devider{
+	margin-left: -120px;
+	margin-top: -20px;
+}
+.dr-text{
+	margin-top: -200px!important;
+	padding-top: -50px!important;
+	text-align: left!important;
+	font-size: 30pt;
+}
+.dr-textp{
+	text-align: left!important;
+	width: 450px;
+	height: 80px;
+}
+
+.dr-image{
+	margin-left: 800px!important;
+}
+.dr-learn-more{
+	padding: 5px 25px 5px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+    margin-left: -620px;
+    margin-top: 10px;
+}
+.dr-learn-more:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;
+}
+/* .carousel-control-prev-icon{
+	margin-left: -90px;
+	position: absolute;
+	border: none;
+	z-index: -1;
+	color: #fff!important;
+	background: #ff7a7a!important;
+	padding: 20px;
+	border-radius: 50%;
+}
+.carousel-control-next-icon{
+	margin-right: -220px;
+	position: absolute;
+	border: none;
+	color: #fff!important;
+	background: #ff7a7a!important;
+	padding: 20px;
+	border-radius: 50%;
+} */
+/* ======================Doctor section end ============= */
+/* ======================appointment section start======= */
+.appoinment{
+	margin-top: 200px;
+}
+.devider-2{
+	margin-left: -285px;
+	margin-top: -5px;
+	margin-bottom: 100px;
+}
+.doc-image, .appoint-text{
+text-align: center;
+}
+.appoint-texth{
+text-align: center;
+margin-top: 10px;
+/* padding-bottom: 5px; */
+}
+.form-control{
+	margin-left: 80px;
+	margin-bottom: 20px;
+}
+.make-appointment{
+	padding: 5px 25px 5px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+    margin-left: 100px;
+}
+.make-appointment:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;
+}
+/* ======================appointment section end======= */
+
+/* ===================Testimonial section start ======== */
+
+.testimonial-section{
+	margin-top: 130px;
+}
+.devider-3{
+	margin-left: -120px;
+	margin-top: -5px;
+	margin-bottom: 50px;
+}
+.tm{
+	margin-left: 90px;
+}
+
+.testi-name{
+	margin-top: 30px;
+	font-weight: bold;
+}
+.testi-p{
+	font-weight: 400;
+	color: #08407b;
+}
+
+/* ===================Testimonial section end ======== */
+
+
+
+@media only screen and (max-width: 767px) {
+
+    h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .cover-text{
+    	margin-top: -20px;
+    }
+    .cover-section{
+    	margin-top: 0px;
+    }
+    .cover-section img{
+    	width: 280px;
+    }
+    .cover-icon{
+    	margin-top: 100px;
+    }
+    .service-section{
+    	margin-top: 100px;
+    }
+    .serv-sec-icon{
+    	margin-top: 50px;
+    }
+    .cardiovascular{
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-right: -50px;
+	background: #f1f1f1;
+	border-radius: 20px;
+	padding:30px 20px;
+}
+.ophtalmologue{
+	margin-top: 45px;
+	background: #f1f1f1;
+	border-radius: 20px;
+	padding:30px 20px;
+}
+.why-patients{
+	margin-top: 50px;
+	margin-left: 5px;
+    }
+    .devider{
+    	margin-left: -80px;
+    }
+    .doctor-section{
+    	max-width: 360px!important;
+    	margin-bottom: -150px;
+    }
+    .slide{
+    	margin-top: -50px;
+    	margin-left: -10px;
+    }
+    .dr-learn-more{
+    	margin-left: -80px;
+    }
+    .devider-2{
+    	margin-left: -220px;
+    }
+    .doc-image{
+    	margin-left: 60px;
+    	margin-top: -50px;
+    }
+    .table1, .table2{
+    	margin-left: -50px;
+    }
+    .testimonial-section{
+    	margin-top: 50px;
+    }
+    .devider-3{
+    	margin-left: -80px;
+    }
+    .tm{
+    	margin-left: 90px;
+    	
+    }
+    
+    .containt{
+    	text-align: center;
+    }
+}

@@ -1,0 +1,116 @@
+
+
+
+/* --------------------cover section start ------------- */
+
+.cover-section{
+	background-image: linear-gradient(to right, rgba(197,225,229,2), rgba(197,225,229,0.5));
+	width: 100%;
+	height: 150px;
+	margin-bottom: 50px;
+}
+.cover-text{
+	margin-left: -200px!important;
+	margin-top: 40px;
+}
+.cover-text p{
+	margin-right: 10px!important;
+}
+.span-services{
+	color: #f76c6c!important;
+}
+
+
+/* --------------------cover section end ------------- */
+
+/*-- --------------------neurology section start--------------------- --> */
+
+.neurology-section,
+.cardiovascular-section, 
+.pregnancy-section,
+.dental-section, 
+.orthopedics-section,
+.ophtalmologue-section{
+	margin-top: 50px;
+}
+.neurology-text,
+.cardiovascular-text, 
+.pregnancy-text,
+.dental-text, 
+.orthopedics-text,
+.ophtalmologue-text{
+	margin-top: 100px;
+	width: 380px;
+	margin-left: 40px;
+}
+.devider{
+	margin-top: -20px;
+}
+.make-appointment{
+	padding: 5px 25px 5px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+    margin-top: 10px;
+}
+.make-appointment:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;}
+
+/* ========================= neurology section end ============= */
+
+
+
+@media only screen and (max-width: 767px) {
+
+    h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .neurology-section{
+    	margin-top: -50px;
+    	margin-bottom: 50px;
+    }
+    .neurology-image,
+    .cardiovascular-image, 
+    .pregnancy-image,
+    .dental-image, 
+    .orthopedics-image,
+    .ophtalmologue-image{
+    	width: 100%;
+    }
+    .neurology-text{
+    	margin-top: -30px;
+    	margin-left: 10px;
+    	width: 100%!important;
+    } 
+    .cardiovascular-text{
+    	margin-top: -30px;
+    	margin-left: 10px;
+    	width: 100%!important;
+    } 
+    .pregnancy-text{
+    	margin-top: 30px;
+    	margin-left: 10px;
+    	width: 100%!important;
+    }
+    .dental-text{
+    	margin-top: -30px;
+    	margin-left: 10px;
+    	width: 100%!important;
+    } 
+    .orthopedics-text{
+    	margin-top: 30px;
+    	margin-left: 10px;
+    	width: 100%!important;
+    }
+    .ophtalmologue-text{
+    	margin-top: -30px;
+    	margin-left: 10px;
+    	width: 100%!important;
+    }
+    .containt{
+    	text-align: center;
+    }
+
+ }

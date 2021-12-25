@@ -1,0 +1,102 @@
+
+
+/* --------------------cover section start ------------- */
+
+.cover-section{
+	background-image: linear-gradient(to right, rgba(197,225,229,2), rgba(197,225,229,0.5));
+	width: 100%;
+	height: 150px;
+}
+.cover-text{
+	margin-left: -150px!important;
+	margin-top: 40px;
+}
+.cover-text h2{
+	margin-right: 65px!important;
+}
+.cover-text p{
+	margin-right: 55px!important;
+}
+.span-about{
+	color: #f76c6c!important;
+}
+
+
+/* --------------------cover section end ------------- */
+
+/* =================== login section start ========== */
+.login-section{
+	background-image: url('../image/cover-img.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.form-group input[type="email"], .form-group input[type="password"]{
+	border-radius: 20px;
+	display: block;
+	min-width: 200px;
+	min-height: 60px;
+	margin-top: 30px;
+}
+
+
+.login-btn{
+	padding: 10px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+    margin-top: -30px;
+    margin-left: 350px;
+    display: block;
+    position: absolute;
+}
+.login-btn:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;
+}
+
+.create-account-btn:hover{
+	color:#ff7a7a ;
+}
+.forget-password-btn{
+	margin-top: 20px;
+	margin-left: 200px;	
+}
+.login-form{
+	margin-top: 200px;
+	margin-bottom: 300px;
+}
+
+/* =================== login section end ========== */
+
+.footer-section{
+	margin-top: 0px!important;
+	background: #f5f5f5;
+}
+
+@media only screen and (max-width: 767px) {
+
+    h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .login-form{
+    	margin-top: 100px;
+    	margin-bottom: 100px;
+    }
+    .login-btn{
+    	margin-top: 20px;
+    	margin-left:-5px ;
+    	margin-bottom: 20px;
+    }
+    .create-account-btn{
+    	margin-top: 50px;
+    }
+    .forget-password-btn{
+    	margin-top: -50px;
+    	margin-left: 150px;
+    }
+    .containt{
+    	text-align: center;
+    }
+
+}

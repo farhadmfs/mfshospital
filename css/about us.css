@@ -1,0 +1,272 @@
+
+
+/* --------------------cover section start ------------- */
+
+.cover-section{
+	background-image: linear-gradient(to right, rgba(197,225,229,2), rgba(197,225,229,0.5));
+	width: 100%;
+	height: 150px;
+	margin-bottom: 50px;
+}
+.cover-text{
+	margin-left: -200px!important;
+	margin-top: 40px;
+}
+.cover-text p{
+	margin-right: 40px!important;
+}
+.span-about{
+	color: #f76c6c!important;
+}
+
+
+/* --------------------cover section end ------------- */
+
+/*-- --------------------welcome section start--------------------- --> */
+
+.welcome-section{
+	margin-top: 50px;
+}
+.welcome-text{
+	margin-top: 150px;
+}
+.welcome-icon{
+	margin-top: 200px;
+}
+.welcome-icon a i{
+	color: #535250!important;
+}
+.welcome-icon a i:hover{
+	color: #f76c6c!important;
+}
+
+
+/* ========================= welcome section end ============= */
+
+/* ===================== Doctor section start ========= */
+
+.our-doctor{
+	margin-top: 200px;
+}
+.h-sec-3{
+	color: #08407b;
+	font-weight: 600;
+}
+.devider{
+	margin-left: -120px;
+	margin-top: -20px;
+}
+.dr-text{
+	margin-top: -200px!important;
+	padding-top: -50px!important;
+	text-align: left!important;
+	font-size: 30pt;
+}
+.dr-textp{
+	text-align: left!important;
+	width: 450px;
+	height: 80px;
+}
+
+.dr-image{
+	margin-left: 800px!important;
+}
+.dr-learn-more{
+	padding: 5px 25px 5px 25px;    
+	background-color: #ff7a7a;
+    color: #fff;
+    border-radius: 20px 20px ;
+    margin-left: -620px;
+    margin-top: 10px;
+}
+.dr-learn-more:hover{
+	border: 2px solid #ff7a7a;
+	color: #fff;
+}
+/* .carousel-control-prev-icon{
+	margin-left: -90px;
+	position: absolute;
+	border: none;
+	z-index: -1;
+	color: #fff!important;
+	background: #ff7a7a!important;
+	padding: 20px;
+	border-radius: 50%;
+}
+.carousel-control-next-icon{
+	margin-right: -220px;
+	position: absolute;
+	border: none;
+	color: #fff!important;
+	background: #ff7a7a!important;
+	padding: 20px;
+	border-radius: 50%;
+} */
+/* ======================Doctor section end ============= */
+
+/* =================why-patient-section start ========= */
+.patient-section{
+	background: #f2f9f9;
+	margin-top: 200px;
+	padding: 50px 50px;
+}
+.why-text{
+	margin-top: 50px;
+}
+.why-text h4{
+	padding-left: 50px;
+}
+.why-a{
+	margin-top: 50px;
+}
+.why-text a{
+	color: #606060;
+	margin-bottom: 20px;
+	padding-left: 50px;
+}
+.why-text i{
+	color: #ff7a7a;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+/* =================why-patient-section end ========= */
+
+/* ===============progress section start ========== */
+.progress-section{
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.progress-item li{
+	border: 1px solid #8ecdea;
+	border-radius: 5px;
+	padding:20px 20px;
+}
+.progress-1{
+	border: 5px solid #8ecdea;
+	border-radius: 20px;
+	padding:20px 20px;
+}
+.progress-1 h3{
+	margin-top: 10px;
+	text-align: center;
+}
+.progress-1 p{
+	font-weight: bold;
+}
+/* ===============progress section end ========== */
+
+/* ============== our mission section start ========= */
+.strategy {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.mission{
+	margin-bottom: 50px;
+}
+.mission-devidor{
+	margin-bottom: 20px;
+}
+.uper-text a{
+	color: #000;
+}
+.uper-text a:hover{
+	color: #faa9a9;
+}
+
+/* ============== our mission section end ========= */
+
+
+
+@media only screen and (max-width: 767px) {
+
+    h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .welcome-section{
+    	margin-top: -200px;
+    }
+    .welcome-icon{
+    	margin-left: -15px;
+    	margin-top: 250px;
+    }
+    .welcome-text{
+    	margin-top: 150px;
+    	width: 230px;
+    	font-size: 10px;
+    	margin-left: -30px;
+    }
+    .welcome-image{
+    	width: 280px;
+    }
+    .doctor-section{
+    	margin-top: -150px;
+    }
+    .h-sec-3{
+    	margin-left: -80px;
+    }
+    .devider{
+    	margin-left: -150px;
+    }
+    .slide{
+    	margin-top: -50px;
+    	margin-left: -20px;
+    	font-size: 10px!important;
+    	font-weight: 400!important;
+    	width: 280px;
+    }
+    .slide h3{
+    	font-size: 25px;
+    }
+    .dr-learn-more{
+    	margin-left: -50px;
+    }
+    .patient-section{
+    	margin-top: 30px;
+    }
+    .patient-section img{
+    	margin-left: -130px;
+    }
+    .patient-section h4{
+    	margin-left: -100px;
+    }
+    .patient-section a{
+    	margin-left: -100px;
+    	width: 280px;
+    	margin-top: 5px;
+    }
+    .progress-section{
+    	margin-top: 30px;
+    	width: 280px;
+    	margin-left: 30px;
+    }
+    .progress-1{
+    	margin-bottom: 20px;
+    }
+    .mission-section{
+    	margin-top: -200px;
+    }
+    .mission-img{
+    	width: 280px;
+    }
+    .uper-text a{
+    	width: 280px;
+
+    }
+
+    .mission-devidor{
+    	width: 250px;
+    }
+    .mission-section p{
+    	width: 250px;
+    }
+    .mission-section h4{
+    	width: 250px;
+    }
+    .containt{
+    	text-align: center;
+    }
+
+}
